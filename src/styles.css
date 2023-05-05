@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+@keyframes fade{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+*{
+    animation: 0.4s fade;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html{
+    background: linear-gradient(to right bottom, #1e1e1e, rgba(30, 30, 30, 0.8));
+
+}

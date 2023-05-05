@@ -1,0 +1,44 @@
+#container-small-card-inline{
+    max-width: 600px;
+    width: 100%;
+    background-color: #1D1D1D;
+    display: flex;
+    height: 100%;
+    max-height: 150px;
+    align-items: center;
+    transition: 0.3s;
+    cursor: pointer;
+    border-radius:  0 10px 10px 0;
+    
+}
+#container-small-card-inline:hover{
+    background-color: black;
+    box-shadow: 2px 2px 6px rgba(255, 255, 255, 0.3);
+}
+#container-small-card-inline h3{
+    color: white;
+    padding: 0 16px;
+}
+#container-small-card-inline img{
+    height: 100%;
+}
+
+#container-small-card-inline:hover h3{
+    color: #47D3FF;
+
+}
+@media (max-width: 600px) {
+    #container-small-card-inline{
+        max-width: none;
+        width: 100vw;
+        height: 200px;
+        border-radius: none;
+    }
+    #container-small-card-inline img{
+        height: auto;
+        width: 50%;
+    }
+    #container-small-card-inline h3{
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,17 @@
+#container-group-card-inline{
+    max-width: 1500px;
+    margin: 80px auto;
+}
+
+#container-group-card-inline h2{
+    color: white;
+    margin: 64px 0 32px ;
+
+}
+#container-posts{
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+
+    
+}

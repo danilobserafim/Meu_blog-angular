@@ -1,0 +1,55 @@
+#container-post{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 32px;
+    position: relative;
+}
+#back{
+    position: absolute;
+    background: transparent;
+    height: 48px;
+    width: 48px;
+    border: none;
+    top: 16px;
+    left: 16px;
+    cursor: pointer;
+}
+#back img{
+    height: 100%;
+    width: 100%;
+}
+#container-post img{
+    width: 100%;
+}
+#container-post h1{
+    color: white;
+    margin: 16px 0;
+    font-size: 3rem;
+}
+#container-post #subtitle{
+    font-weight: 700;
+    margin: -16px 0 64px;
+    font-size:1.2rem ;
+    color: gray;
+    
+}
+#container-post p{
+    color: white;
+    margin-bottom: 16px;
+    text-shadow: 1px 1px 3px #1d1d1d;
+    display: flex;
+    font-size: 1.5rem;
+}
+#ads{
+    width: 180px;
+    height: 700px;
+    margin-left: 8px;
+    background-color: #47D3FF;
+    float: right;
+    color: #002C54;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-top: 8px;
+}

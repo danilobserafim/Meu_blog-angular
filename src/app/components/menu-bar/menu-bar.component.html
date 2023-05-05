@@ -1,0 +1,15 @@
+<div id="container-menu-bar">
+    <nav id="menu">
+        <a [routerLink]="['/']" class="menu-item">Início</a>
+        <details id="tech">
+            <summary>Tecnologias</summary>
+            <ul>
+                <li *ngFor="let name of names"  >
+                    <a [routerLink]="['pages/', name]"class="menu-item">{{name}}</a>
+                </li>
+            </ul>
+        </details>
+        <a [routerLink]="['/shop']" class="menu-item">Shop</a>
+    </nav>
+
+</div>
